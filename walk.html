@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>梦幻西游</title>
+	<link rel="stylesheet" href="css/common.css">
+	<style>
+	html,body{
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-image: url(images/5.jpg);
+		animation-name: bj;
+		animation-timing-function:linear;
+		animation-iteration-count: infinite;
+		animation-duration: 100s;
+		/*animation-fill-mode: both;*/
+	}
+	.wk{
+		margin-left: 400px;
+		width: 200px;
+		height: 150px;
+		margin: 0 auto;
+		margin-top: 150px;
+		background-image: url(images/1.png);
+		animation-name: walk;
+		animation-timing-function:steps(8);
+		animation-iteration-count: infinite;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+	}
+	.bj{
+		width: 200px;
+		height: 150px;
+		margin: 0 auto;
+		margin-top: 150px;
+		background-image: url(images/2.png);
+		animation-name: walk;
+		animation-timing-function:steps(8);
+		animation-iteration-count: infinite;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+	}
+	.ts{
+		width: 170px;
+		height: 230px;
+		margin: 0 auto;
+		margin-top: 150px;
+		background-image: url(images/3.png);
+		animation-name: tswalk;
+		animation-timing-function:steps(8);
+		animation-iteration-count: infinite;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+	}
+	.ss{
+		width: 200px;
+		height: 150px;
+		margin: 0 auto;
+		margin-top: 150px;
+		background-image: url(images/4.png);
+		animation-name: sswalk;
+		animation-timing-function:steps(8);
+		animation-iteration-count: infinite;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+	}
+        @keyframes tswalk{
+        	100%{
+       background-position: -1360px 0;
+	        }  
+	    }	
+	    @keyframes sswalk{
+        	100%{
+       background-position: -1680px 0;
+	        }  
+	    }	
+		@keyframes walk{
+	         100%{
+       background-position: -1600px 0;
+        }
+    }
+        @keyframes bj{
+	         100%{
+       background-position: 1000px 0;
+        }
+    }
+	</style>
+</head>
+<body>
+	<div class="wk" style="float: left;margin-left: 350px;margin-top: 370px"></div>
+	<div class="bj" style="float: left;margin-top: 370px"></div>
+	<div class="ts" style="float: left;margin-top: 370px"></div>
+	<div class="ss" style="float: left;margin-top: 370px"></div>
+</body>
+</html>
